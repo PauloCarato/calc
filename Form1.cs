@@ -6,5 +6,9 @@ namespace calc
         {
             InitializeComponent();
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            loading.Value = 100;
+        }
     }
 }
