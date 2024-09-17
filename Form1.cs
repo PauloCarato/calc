@@ -8,7 +8,22 @@ namespace calc
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            loading.Value = 100;
+            loading.Value = 0;
+        }
+
+        private void loadingTime_Tick(object sender, EventArgs e)
+        {
+            if (loading.Value == 100) {
+                loadingTime.Enabled = false;
+
+                achoqmain achoqmain = new achoqmain();
+                achoqmain.Show();
+                this.Hide();
+
+            }
+            else {
+                loading.Value += 5;
+            }
         }
     }
 }

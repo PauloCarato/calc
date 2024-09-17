@@ -28,11 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             loading = new ProgressBar();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            loadingTime = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
@@ -49,7 +51,7 @@
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox2.Cursor = Cursors.No;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(69, 216);
+            pictureBox2.Location = new Point(28, 216);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(393, 170);
             pictureBox2.TabIndex = 2;
@@ -64,6 +66,11 @@
             pictureBox3.Size = new Size(320, 184);
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
+            // 
+            // loadingTime
+            // 
+            loadingTime.Enabled = true;
+            loadingTime.Tick += loadingTime_Tick;
             // 
             // Form1
             // 
@@ -91,5 +98,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        private System.Windows.Forms.Timer loadingTime;
     }
 }
