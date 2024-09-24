@@ -15,15 +15,14 @@ namespace calc
         {
             if (loading.Value == 100) {
                 loadingTime.Enabled = false;
-
-                achoqmain achoqmain = new achoqmain();
-                achoqmain.Show();
+                achoqmain abreotro = new achoqmain();
+                abreotro.Show();
                 this.Hide();
-
             }
             else {
                 loading.Value += 5;
             }
+            // this seems simple but a lot of people messed this up somehow
         }
     }
 }

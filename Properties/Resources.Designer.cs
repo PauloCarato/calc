@@ -59,5 +59,15 @@ namespace calc.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bocchi_the_rock_ryo_yamada_explosion_04vn8fjwd3wf3di0 {
+            get {
+                object obj = ResourceManager.GetObject("bocchi-the-rock-ryo-yamada-explosion-04vn8fjwd3wf3di0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
