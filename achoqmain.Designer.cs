@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(achoqmain));
             button1 = new Button();
             textBox1 = new TextBox();
             button2 = new Button();
@@ -117,7 +118,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(359, 335);
+            button7.Location = new Point(315, 335);
             button7.Name = "button7";
             button7.Size = new Size(62, 47);
             button7.TabIndex = 7;
@@ -128,7 +129,7 @@
             // pictureBox1
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox1.Image = Properties.Resources.bocchi_the_rock_ryo_yamada_explosion_04vn8fjwd3wf3di0;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(50, 195);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(200, 187);
