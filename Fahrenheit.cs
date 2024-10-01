@@ -28,15 +28,14 @@ namespace calc
             string Input1 = InputTemp.Text;
 
 
-            if (Input1 == "" && Input1.Any(char.IsLetter))
+            if (Input1 == "" || Input1.Any(char.IsLetter))
             {
                 MessageBox.Show("Insira um valor válido");
             }
 
             else
-            {
-                int tura = Convert.ToInt32(InputTemp.Text);
-                OutputTemp.Text = (Convert.ToString(tura * 1.38 + 32));
+            {    
+                OutputTemp.Text = (Convert.ToString(Convert.ToInt32(Input1) * 1.38 + 32));
             }
         }
 

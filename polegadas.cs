@@ -19,15 +19,17 @@ namespace calc
 
         private void confirma22_Click(object sender, EventArgs e)
         {
-            if (InputCM.Text == "")
+            string input2 = InputCM.Text;
+            if (input2 == "" || input2.Any(char.IsLetter))
             {
+                MessageBox.Show("Insira um valor válido antes de confirmar");
 
-                MessageBox.Show("Insira um valor antes de confirmar");
             }
             else
             {
                 int convertível = Convert.ToInt32(InputCM.Text);
                 OutputPolegada.Text = (Convert.ToString(convertível/2.54));
+
             }
         }
         private void limpa_Click(object sender, EventArgs e)
