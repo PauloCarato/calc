@@ -124,7 +124,7 @@ namespace calc
         private void IgualButton_Click(object sender, EventArgs e)
         {
             //MessageBox.Show("i want u to know that this codes horrific; This doesnt work yet " +
-            //    "(idk if it will someday)");
+            //    "(i dont even know if someday it will work )");
 
             switch (calc)
             {
@@ -166,6 +166,12 @@ namespace calc
         {
             Fahrenheit abre = new Fahrenheit();
             abre.Show();
+        }
+
+        private void centímetrosPraPolegadasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            polegadas abre1 = new polegadas();
+            abre1.Show();
         }
 
 

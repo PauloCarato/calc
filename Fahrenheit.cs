@@ -25,10 +25,14 @@ namespace calc
 
         private void BotaoInput_Click(object sender, EventArgs e)
         {
-            if (InputTemp.Text == "")
+            string Input1 = InputTemp.Text;
+
+
+            if (Input1 == "" && Input1.Any(char.IsLetter))
             {
-                MessageBox.Show("Insira um valor");
+                MessageBox.Show("Insira um valor válido");
             }
+
             else
             {
                 int tura = Convert.ToInt32(InputTemp.Text);

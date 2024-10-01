@@ -55,6 +55,7 @@
             sairToolStripMenuItem = new ToolStripMenuItem();
             conversorToolStripMenuItem = new ToolStripMenuItem();
             celsiusParaFahrenheitToolStripMenuItem = new ToolStripMenuItem();
+            centímetrosPraPolegadasToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
             menuStrip1.SuspendLayout();
@@ -288,13 +289,13 @@
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            sairToolStripMenuItem.Size = new Size(224, 26);
+            sairToolStripMenuItem.Size = new Size(117, 26);
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
             // conversorToolStripMenuItem
             // 
-            conversorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaFahrenheitToolStripMenuItem });
+            conversorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaFahrenheitToolStripMenuItem, centímetrosPraPolegadasToolStripMenuItem });
             conversorToolStripMenuItem.Name = "conversorToolStripMenuItem";
             conversorToolStripMenuItem.Size = new Size(89, 24);
             conversorToolStripMenuItem.Text = "Conversor";
@@ -302,9 +303,16 @@
             // celsiusParaFahrenheitToolStripMenuItem
             // 
             celsiusParaFahrenheitToolStripMenuItem.Name = "celsiusParaFahrenheitToolStripMenuItem";
-            celsiusParaFahrenheitToolStripMenuItem.Size = new Size(243, 26);
+            celsiusParaFahrenheitToolStripMenuItem.Size = new Size(270, 26);
             celsiusParaFahrenheitToolStripMenuItem.Text = "Celsius para Fahrenheit";
             celsiusParaFahrenheitToolStripMenuItem.Click += celsiusParaFahrenheitToolStripMenuItem_Click;
+            // 
+            // centímetrosPraPolegadasToolStripMenuItem
+            // 
+            centímetrosPraPolegadasToolStripMenuItem.Name = "centímetrosPraPolegadasToolStripMenuItem";
+            centímetrosPraPolegadasToolStripMenuItem.Size = new Size(270, 26);
+            centímetrosPraPolegadasToolStripMenuItem.Text = "Centímetros pra Polegadas";
+            centímetrosPraPolegadasToolStripMenuItem.Click += centímetrosPraPolegadasToolStripMenuItem_Click;
             // 
             // achoqmain
             // 
@@ -372,5 +380,6 @@
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem conversorToolStripMenuItem;
         private ToolStripMenuItem celsiusParaFahrenheitToolStripMenuItem;
+        private ToolStripMenuItem centímetrosPraPolegadasToolStripMenuItem;
     }
 }
