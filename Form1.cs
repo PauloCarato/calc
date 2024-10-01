@@ -13,14 +13,12 @@ namespace calc
 
         private void loadingTime_Tick(object sender, EventArgs e)
         {
+            loading.Value += 5;
             if (loading.Value == 100) {
                 loadingTime.Enabled = false;
                 achoqmain abreotro = new achoqmain();
                 abreotro.Show();
                 this.Hide();
-            }
-            else {
-                loading.Value += 5;
             }
             // this seems simple but a lot of people messed this up somehow
         }

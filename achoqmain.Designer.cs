@@ -44,15 +44,28 @@
             somabutton = new Button();
             subtraçãoButton = new Button();
             IgualButton = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button0 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            menuStrip1 = new MenuStrip();
+            arquivoToolStripMenuItem = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            conversorToolStripMenuItem = new ToolStripMenuItem();
+            celsiusParaFahrenheitToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(291, 195);
+            button1.Location = new Point(273, 237);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(62, 47);
+            button1.Size = new Size(71, 63);
             button1.TabIndex = 0;
             button1.Text = "1";
             button1.UseVisualStyleBackColor = true;
@@ -60,17 +73,19 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(71, 28);
+            textBox1.Location = new Point(81, 37);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(682, 121);
+            textBox1.Size = new Size(779, 160);
             textBox1.TabIndex = 1;
             // 
             // button2
             // 
-            button2.Location = new Point(359, 195);
+            button2.Location = new Point(350, 237);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(62, 47);
+            button2.Size = new Size(71, 63);
             button2.TabIndex = 2;
             button2.Text = "2";
             button2.UseVisualStyleBackColor = true;
@@ -78,9 +93,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(427, 195);
+            button3.Location = new Point(428, 237);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(62, 47);
+            button3.Size = new Size(71, 63);
             button3.TabIndex = 3;
             button3.Text = "3";
             button3.UseVisualStyleBackColor = true;
@@ -88,9 +104,10 @@
             // 
             // button4
             // 
-            button4.Location = new Point(359, 267);
+            button4.Location = new Point(350, 333);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(62, 47);
+            button4.Size = new Size(71, 63);
             button4.TabIndex = 4;
             button4.Text = "5";
             button4.UseVisualStyleBackColor = true;
@@ -98,9 +115,10 @@
             // 
             // button5
             // 
-            button5.Location = new Point(291, 267);
+            button5.Location = new Point(273, 333);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(62, 47);
+            button5.Size = new Size(71, 63);
             button5.TabIndex = 5;
             button5.Text = "4";
             button5.UseVisualStyleBackColor = true;
@@ -108,9 +126,10 @@
             // 
             // button6
             // 
-            button6.Location = new Point(427, 267);
+            button6.Location = new Point(428, 333);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(62, 47);
+            button6.Size = new Size(71, 63);
             button6.TabIndex = 6;
             button6.Text = "6";
             button6.UseVisualStyleBackColor = true;
@@ -118,9 +137,10 @@
             // 
             // button7
             // 
-            button7.Location = new Point(315, 335);
+            button7.Location = new Point(273, 423);
+            button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(62, 47);
+            button7.Size = new Size(71, 63);
             button7.TabIndex = 7;
             button7.Text = "7";
             button7.UseVisualStyleBackColor = true;
@@ -130,9 +150,10 @@
             // 
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(50, 195);
+            pictureBox1.Location = new Point(12, 238);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(200, 187);
+            pictureBox1.Size = new Size(229, 249);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -150,9 +171,10 @@
             // 
             // somabutton
             // 
-            somabutton.Location = new Point(519, 195);
+            somabutton.Location = new Point(620, 291);
+            somabutton.Margin = new Padding(3, 4, 3, 4);
             somabutton.Name = "somabutton";
-            somabutton.Size = new Size(62, 47);
+            somabutton.Size = new Size(71, 63);
             somabutton.TabIndex = 9;
             somabutton.Text = "+";
             somabutton.UseVisualStyleBackColor = true;
@@ -160,9 +182,10 @@
             // 
             // subtraçãoButton
             // 
-            subtraçãoButton.Location = new Point(519, 267);
+            subtraçãoButton.Location = new Point(620, 378);
+            subtraçãoButton.Margin = new Padding(3, 4, 3, 4);
             subtraçãoButton.Name = "subtraçãoButton";
-            subtraçãoButton.Size = new Size(62, 47);
+            subtraçãoButton.Size = new Size(71, 63);
             subtraçãoButton.TabIndex = 10;
             subtraçãoButton.Text = "-";
             subtraçãoButton.UseVisualStyleBackColor = true;
@@ -170,19 +193,130 @@
             // 
             // IgualButton
             // 
-            IgualButton.Location = new Point(519, 335);
+            IgualButton.Location = new Point(505, 423);
+            IgualButton.Margin = new Padding(3, 4, 3, 4);
             IgualButton.Name = "IgualButton";
-            IgualButton.Size = new Size(62, 47);
+            IgualButton.Size = new Size(71, 63);
             IgualButton.TabIndex = 11;
             IgualButton.Text = "=";
             IgualButton.UseVisualStyleBackColor = true;
             IgualButton.Click += IgualButton_Click;
             // 
+            // button8
+            // 
+            button8.Location = new Point(350, 423);
+            button8.Margin = new Padding(3, 4, 3, 4);
+            button8.Name = "button8";
+            button8.Size = new Size(71, 63);
+            button8.TabIndex = 12;
+            button8.Text = "8";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(428, 424);
+            button9.Margin = new Padding(3, 4, 3, 4);
+            button9.Name = "button9";
+            button9.Size = new Size(71, 63);
+            button9.TabIndex = 13;
+            button9.Text = "9";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button0
+            // 
+            button0.Location = new Point(505, 333);
+            button0.Margin = new Padding(3, 4, 3, 4);
+            button0.Name = "button0";
+            button0.Size = new Size(71, 63);
+            button0.TabIndex = 14;
+            button0.Text = "0";
+            button0.UseVisualStyleBackColor = true;
+            button0.Click += button0_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(697, 378);
+            button10.Margin = new Padding(3, 4, 3, 4);
+            button10.Name = "button10";
+            button10.Size = new Size(71, 63);
+            button10.TabIndex = 15;
+            button10.Text = "x";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(697, 291);
+            button11.Margin = new Padding(3, 4, 3, 4);
+            button11.Name = "button11";
+            button11.Size = new Size(71, 63);
+            button11.TabIndex = 16;
+            button11.Text = "o/o";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(505, 237);
+            button12.Margin = new Padding(3, 4, 3, 4);
+            button12.Name = "button12";
+            button12.Size = new Size(71, 63);
+            button12.TabIndex = 17;
+            button12.Text = "Cleanse";
+            button12.UseVisualStyleBackColor = true;
+            button12.Click += button12_Click;
+            // 
+            // menuStrip1
+            // 
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { arquivoToolStripMenuItem, conversorToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(914, 28);
+            menuStrip1.TabIndex = 18;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // arquivoToolStripMenuItem
+            // 
+            arquivoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { sairToolStripMenuItem });
+            arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
+            arquivoToolStripMenuItem.Size = new Size(75, 24);
+            arquivoToolStripMenuItem.Text = "Arquivo";
+            // 
+            // sairToolStripMenuItem
+            // 
+            sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            sairToolStripMenuItem.Size = new Size(224, 26);
+            sairToolStripMenuItem.Text = "Sair";
+            sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
+            // 
+            // conversorToolStripMenuItem
+            // 
+            conversorToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { celsiusParaFahrenheitToolStripMenuItem });
+            conversorToolStripMenuItem.Name = "conversorToolStripMenuItem";
+            conversorToolStripMenuItem.Size = new Size(89, 24);
+            conversorToolStripMenuItem.Text = "Conversor";
+            // 
+            // celsiusParaFahrenheitToolStripMenuItem
+            // 
+            celsiusParaFahrenheitToolStripMenuItem.Name = "celsiusParaFahrenheitToolStripMenuItem";
+            celsiusParaFahrenheitToolStripMenuItem.Size = new Size(243, 26);
+            celsiusParaFahrenheitToolStripMenuItem.Text = "Celsius para Fahrenheit";
+            celsiusParaFahrenheitToolStripMenuItem.Click += celsiusParaFahrenheitToolStripMenuItem_Click;
+            // 
             // achoqmain
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
+            Controls.Add(button12);
+            Controls.Add(button11);
+            Controls.Add(button10);
+            Controls.Add(button0);
+            Controls.Add(button9);
+            Controls.Add(button8);
             Controls.Add(IgualButton);
             Controls.Add(subtraçãoButton);
             Controls.Add(somabutton);
@@ -195,12 +329,18 @@
             Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(button1);
+            Controls.Add(menuStrip1);
+            MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "achoqmain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "vv";
+            FormClosed += achoqmain_FormClosed;
             Load += achoqmain_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)fileSystemWatcher1).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -221,5 +361,16 @@
         private Button IgualButton;
         private Button subtraçãoButton;
         private Button somabutton;
+        private Button button9;
+        private Button button8;
+        private Button button0;
+        private Button button12;
+        private Button button11;
+        private Button button10;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem arquivoToolStripMenuItem;
+        private ToolStripMenuItem sairToolStripMenuItem;
+        private ToolStripMenuItem conversorToolStripMenuItem;
+        private ToolStripMenuItem celsiusParaFahrenheitToolStripMenuItem;
     }
 }
